@@ -21,6 +21,16 @@
   "base_id": 6300000,
   "actors" : [
     {
+      "trans": [33.0, 300.0496, 154.1191], 
+      "etype": "money",  
+      "game_task": 0, 
+      "quat" : [0, 0, 0, 1], 
+      "bsphere": [-21.6238, 19.3496, 17.1191, 10], 
+      "lump": {
+        "name":"level-building-orb-ig"
+      }
+    },
+    {
       "trans": [55.3720, 55.3720, 55.3720],// translation
       "etype": "fuel-cell",  // chick
       "game_task": 0, // associated game task (for powercells, etc)

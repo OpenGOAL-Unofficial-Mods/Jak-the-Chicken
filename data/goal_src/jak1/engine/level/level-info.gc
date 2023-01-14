@@ -16,6 +16,7 @@
     :packages '(training)
     :sound-banks '(training)
     :music-bank 'village1
+    :custom-orb-count 50
     :ambient-sounds '()
     :mood '*training-mood*
     :mood-func 'update-mood-training
@@ -125,6 +126,7 @@
     :ocean '*ocean-map-village1*
     :sky #t
     :sun-fade 1.0
+    :custom-orb-count 50
     :continues '((new 'static 'continue-point
         :name "village1-hut"
         :level 'village1
@@ -240,6 +242,7 @@
     :ocean '*ocean-map-village1*
     :sky #t
     :sun-fade 1.0
+    :custom-orb-count 150
     :continues '((new 'static 'continue-point
         :name "beach-start"
         :level 'beach
@@ -283,6 +286,7 @@
     :ocean '*ocean-map-village1*
     :sky #t
     :sun-fade 1.0
+    :custom-orb-count 150
     :continues '((new 'static 'continue-point
         :name "jungle-start"
         :level 'jungle
@@ -325,6 +329,7 @@
     :mood-func 'update-mood-jungleb
     :ocean 'none
     :sky #f
+    :custom-orb-count 150
     :continues '((new 'static 'continue-point
         :name "jungle-tower"
         :level 'jungleb
@@ -367,6 +372,7 @@
     :ocean '*ocean-map-village1*
     :sky #t
     :sun-fade 0.25
+    :custom-orb-count 150
     :continues '((new 'static 'continue-point
         :name "misty-start"
         :level 'misty
@@ -525,6 +531,7 @@
     :mood-func 'update-mood-firecanyon
     :ocean 'none
     :sky #t
+    :custom-orb-count 50
     :continues '((new 'static 'continue-point
         :name "firecanyon-start"
         :level 'firecanyon
@@ -581,6 +588,7 @@
     :mood-func 'update-mood-village2
     :ocean '*ocean-map-village2*
     :sky #t
+    :custom-orb-count 50
     :continues '((new 'static 'continue-point
         :name "village2-start"
         :level 'village2
@@ -652,6 +660,7 @@
     :mood-func 'update-mood-sunken
     :ocean '*ocean-map-sunken*
     :sky #f
+    :custom-orb-count 200
     :continues '((new 'static 'continue-point
         :name "sunken-start"
         :level 'sunken
@@ -736,6 +745,7 @@
     :mood-func 'update-mood-sunken
     :ocean '*ocean-map-sunken*
     :sky #t
+    :custom-orb-count 200
     :continues '((new 'static 'continue-point
         :name "sunkenb-start"
         :level 'sunkenb
@@ -785,6 +795,7 @@
     :visname 'swamp-vis
     :nickname 'swa
     :packages '(swamp)
+    :custom-orb-count 200
     :sound-banks '(swamp)
     :music-bank 'swamp
     :ambient-sounds '()
@@ -792,6 +803,7 @@
     :mood-func 'update-mood-swamp
     :ocean '*ocean-map-village2*
     :sky #t
+    :custom-orb-count 200
     :continues '((new 'static 'continue-point
         :name "swamp-start"
         :level 'swamp
@@ -960,6 +972,7 @@
     :mood-func 'update-mood-rolling
     :ocean 'none
     :sky #t
+    :custom-orb-count 200
     :continues '((new 'static 'continue-point
         :name "rolling-start"
         :level 'rolling
@@ -1002,6 +1015,7 @@
     :mood-func 'update-mood-ogre
     :ocean 'none
     :sky #t
+    :custom-orb-count 50
     :continues '((new 'static 'continue-point
         :name "ogre-start"
         :level 'ogre
@@ -1072,6 +1086,7 @@
     :mood-func 'update-mood-village3
     :ocean #f
     :sky #t
+    :custom-orb-count 50
     :continues '((new 'static 'continue-point
         :name "village3-start"
         :level 'village3
@@ -1144,6 +1159,7 @@
     :ocean #f
     :sky #t
     :sun-fade 0.5
+    :custom-orb-count 200
     :continues '((new 'static 'continue-point
         :name "snow-start"
         :level 'snow
@@ -1298,6 +1314,7 @@
     :mood-func 'update-mood-maincave
     :ocean #f
     :sky #f
+    :custom-orb-count 200
     :continues '((new 'static 'continue-point
         :name "maincave-start"
         :level 'maincave
@@ -1368,6 +1385,7 @@
     :mood-func 'update-mood-darkcave
     :ocean #f
     :sky #f
+    :custom-orb-count 200
     :continues '((new 'static 'continue-point
         :name "darkcave-start"
         :level 'darkcave
@@ -1410,6 +1428,7 @@
     :mood-func 'update-mood-robocave
     :ocean #f
     :sky #f
+    :custom-orb-count 200
     :continues '((new 'static 'continue-point
         :name "robocave-start"
         :level 'robocave
@@ -1466,6 +1485,7 @@
     :mood-func 'update-mood-lavatube
     :ocean #f
     :sky #f
+    :custom-orb-count 50
     :continues '((new 'static 'continue-point
         :name "lavatube-start"
         :level 'lavatube
@@ -1550,6 +1570,7 @@
     :mood-func 'update-mood-citadel
     :ocean #f
     :sky #f
+    :custom-orb-count 200
     :continues '((new 'static 'continue-point
         :name "citadel-start"
         :level 'citadel
@@ -1720,6 +1741,7 @@
     :ocean #f
     :sky #t
     :sun-fade 1.0
+    :custom-orb-count 200
     :continues '((new 'static 'continue-point
         :name "finalboss-start"
         :level 'finalboss
@@ -2020,7 +2042,7 @@
                            :visname 'block-world-vis ;; name + -vis
                            :nickname 'bwd          ;; nickname
                            :customname "Welcome to Block World!"
-                           :custom-orb-count 0
+                           :custom-orb-count 55
                            :custom-buzzer-count 5
                            :packages '()
                            :sound-banks '()
@@ -2278,7 +2300,7 @@
                            :visname 'ice-canyon-vis ;; name + -vis
                            :nickname 'can          ;; nickname
                            :customname "Ice Canyon"
-                           :custom-orb-count 300
+                           :custom-orb-count 3
                            :custom-buzzer-count 5
                            :packages '()
                            :sound-banks '()
@@ -2321,7 +2343,7 @@
                            :visname 'coins-vis ;; name + -vis
                            :nickname 'coi          ;; nickname
                            :customname "Coins"
-                           :custom-orb-count 300
+                           :custom-orb-count 1
                            :custom-buzzer-count 5
                            :packages '()
                            :sound-banks '()
@@ -2364,7 +2386,7 @@
                            :visname 'villa-cube-vis ;; name + -vis
                            :nickname 'vil         ;; nickname
                            :customname "Villa cube"
-                           :custom-orb-count 300
+                           :custom-orb-count 3
                            :custom-buzzer-count 5
                            :packages '()
                            :sound-banks '()
@@ -2407,7 +2429,7 @@
                            :visname 'ice-slide-vis ;; name + -vis
                            :nickname 'sli          ;; nickname
                            :customname "ice Slide"
-                           :custom-orb-count 300
+                           :custom-orb-count 1
                            :custom-buzzer-count 5
                            :packages '()
                            :sound-banks '()
@@ -2450,7 +2472,7 @@
                            :visname 'islands-vis ;; name + -vis
                            :nickname 'isl          ;; nickname
                            :customname "Islands"
-                           :custom-orb-count 300
+                           :custom-orb-count 3
                            :custom-buzzer-count 5
                            :packages '()
                            :sound-banks '()
@@ -2493,7 +2515,7 @@
                            :visname 'glass-towers-vis ;; name + -vis
                            :nickname 'gla          ;; nickname
                            :customname "Glass towers"
-                           :custom-orb-count 300
+                           :custom-orb-count 3
                            :custom-buzzer-count 5
                            :packages '()
                            :sound-banks '()
@@ -2536,7 +2558,7 @@
                            :visname 'chemical-factory-vis ;; name + -vis
                            :nickname 'che          ;; nickname
                            :customname "Chemical factory"
-                           :custom-orb-count 300
+                           :custom-orb-count 3
                            :custom-buzzer-count 5
                            :packages '()
                            :sound-banks '()
@@ -2579,7 +2601,7 @@
                            :visname 'space-bridge-vis ;; name + -vis
                            :nickname 'spa          ;; nickname
                            :customname "Space Bridge"
-                           :custom-orb-count 300
+                           :custom-orb-count 3
                            :custom-buzzer-count 5
                            :packages '()
                            :sound-banks '()
@@ -2622,7 +2644,7 @@
                            :visname 'chicks-vis ;; name + -vis
                            :nickname 'chi          ;; nickname
                            :customname "Chicks"
-                           :custom-orb-count 300
+                           :custom-orb-count 3
                            :custom-buzzer-count 5
                            :packages '()
                            :sound-banks '()
@@ -2665,7 +2687,7 @@
                            :visname 'garden-vis ;; name + -vis
                            :nickname 'gar          ;; nickname
                            :customname "garden"
-                           :custom-orb-count 300
+                           :custom-orb-count 3
                            :custom-buzzer-count 5
                            :packages '()
                            :sound-banks '()
@@ -2708,7 +2730,7 @@
                            :visname 'cold-pipe-vis ;; name + -vis
                            :nickname 'COL          ;; nickname
                            :customname "Cold pipe"
-                           :custom-orb-count 300
+                           :custom-orb-count 3
                            :custom-buzzer-count 2
                            :packages '()
                            :sound-banks '()
@@ -2751,7 +2773,7 @@
                            :visname 'block-man-vis ;; name + -vis
                            :nickname 'man          ;; nickname
                            :customname "Block Man"
-                           :custom-orb-count 300
+                           :custom-orb-count 3
                            :custom-buzzer-count 5
                            :packages '()
                            :sound-banks '()
@@ -2794,7 +2816,7 @@
                            :visname 'cube-face-vis ;; name + -vis
                            :nickname 'FAC          ;; nickname
                            :customname "Cube Face"
-                           :custom-orb-count 300
+                           :custom-orb-count 3
                            :custom-buzzer-count 5
                            :packages '()
                            :sound-banks '()

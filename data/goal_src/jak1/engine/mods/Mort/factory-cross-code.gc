@@ -10,8 +10,8 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;
 (define factory-cross-load-level-id 23)
 (define factory-cross-per-level-id 17)
-(define factory-cross-num-chicks 3)
-(define factory-cross-num-fuel 6)
+(define factory-cross-num-chicks 0)
+(define factory-cross-num-fuel 0)
 (define factory-cross-spawn-point 0)
 
 (define factory-cross-nextCheckpoint "holly-wood-start")

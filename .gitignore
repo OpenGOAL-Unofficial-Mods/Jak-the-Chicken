@@ -17,3 +17,11 @@ data/extractor.log
 data/extractor.log
 .env
 Zedbottwitchintegration.exe
+*.lnk
+*.PPF
+*.TPF
+*.DAT
+*.STG
+*.TIM
+gk.exe - Shortcut.lnk
+data/goal_src.rar

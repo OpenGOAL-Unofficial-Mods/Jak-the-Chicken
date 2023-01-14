@@ -228,6 +228,55 @@
 (#x10c3 "SCRAPBOOK"
         "SCRAPBOOK")
 
+(#x10c8 "TAGMORT"
+        "TAGMORT")
+(#x10c4 "BLOCK WORLD"
+        "BLOCK WORLD")
+(#x10c5 "COLLECT ALL THE CHICKS!"
+        "COLLECT ALL THE CHICKS!")
+(#x10c6 "DEFEAT ALL THE EVIL CUBES"
+        "DEFEAT ALL THE EVIL CUBES")
+(#x10c7 "OPEN ALL POWERUP EGGS"
+        "OPEN ALL POWERUP EGGS")
+
+(#x1502 "FACTORY CROSS"
+        "FACTORY CROSS")
+(#x1503 "HOLLY WOOD"
+        "HOLLY WOOD")
+(#x1504 "MONUMENT"
+        "MONUMENT")
+(#x1505 "CATHEDERAL"
+        "CATHEDERAL")
+(#x1506 "PYRAMID"
+        "PYRAMID")
+(#x1507 "ICE CANYON"
+        "ICE CANYON")
+(#x1508 "COINS"
+        "COINS")
+(#x1509 "VILLA CUBA"
+        "VILLA CUBA")
+(#x1510 "ICE SLIDE"
+        "ICE SLIDE")
+(#x1511 "ISLANDS"
+        "ISLANDS")
+(#x1512 "GLASS TOWERS"
+        "GLASS TOWERS")
+(#x1513 "CHEMICAL FACTORY"
+        "CHEMICAL FACTORY")
+(#x1514 "SPACE BRIDGE"
+        "SPACE BRIDGE")
+(#x1515 "CHICKS"
+        "CHICKS")
+(#x1516 "GARDEN"
+        "GARDEN")
+(#x1517 "COLD PIPE"
+        "COLD PIPE")
+(#x1518 "BLOCK MAN"
+        "BLOCK MAN")
+(#x1519 "CUBE FACE"
+        "CUBE FACE")
+
+
 (#x10d0 "DEFAULT"
         "DEFAULT")
 (#x10d1 "UNUSED"

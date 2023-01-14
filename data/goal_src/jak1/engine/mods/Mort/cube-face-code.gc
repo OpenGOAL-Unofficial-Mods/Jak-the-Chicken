@@ -14,7 +14,7 @@
 (define cube-face-num-fuel 0)
 (define cube-face-spawn-point 0)
 
-(define nextCheckpoint "cube-face-start")
+(define nextCheckpoint "training-start")
 
 ;;money and buzzer are already set, but we need to add these to the levels count-info
 (set! (-> *game-counts* data(-> *level-task-data-remap* (+  cube-face-load-level-id -1))fuel-count) cube-face-num-fuel)

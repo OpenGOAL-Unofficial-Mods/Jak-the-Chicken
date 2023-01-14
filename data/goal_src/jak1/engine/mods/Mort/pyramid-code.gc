@@ -11,7 +11,7 @@
 (define pyramid-load-level-id 27)
 (define pyramid-per-level-id 21)
 (define pyramid-num-chicks 3)
-(define pyramid-num-fuel 10)
+(define pyramid-num-fuel 0)
 (define pyramid-spawn-point 0)
 
 (define pyramid-nextCheckpoint "ice-canyon-start")

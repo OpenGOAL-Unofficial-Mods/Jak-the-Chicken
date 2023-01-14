@@ -11,7 +11,7 @@
 (define holly-wood-load-level-id 24)
 (define holly-wood-per-level-id 18)
 (define holly-wood-num-chicks 3)
-(define holly-wood-num-fuel 6)
+(define holly-wood-num-fuel 0)
 (define holly-wood-spawn-point 0)
 
 (define holly-wood-nextCheckpoint "monument-start")

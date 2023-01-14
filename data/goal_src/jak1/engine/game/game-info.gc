@@ -182,7 +182,7 @@
     The cause can be 'dead if you die, or 'game to reset everything.
     If save-to-load is not #f will load data from that.
     If continue-point-override is not #f, will use that."
-;;(define *game-counts* (the-as game-count-info #f))
+(define *game-counts* (the-as game-count-info #f))
 
 
 

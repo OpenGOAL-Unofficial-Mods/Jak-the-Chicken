@@ -2044,14 +2044,15 @@
                            :customname "Welcome to Block World!"
                            :custom-orb-count 55
                            :custom-buzzer-count 5
-                           :packages '()
-                           :sound-banks '()
-                           :music-bank #f
+                           :packages '(training)
+                           :sound-banks '(training)
+                           :music-bank 'village1
                            :ambient-sounds '()
-                           :mood '*default-mood*
-                           :mood-func 'update-mood-default
-                           :ocean #f
+                           :mood '*training-mood*
+                           :mood-func 'update-mood-training
+                           :ocean '*ocean-map-village1*
                            :sky #t
+                           :sun-fade 1.0
                            :continues '((new 'static 'continue-point
                                              :name "block-world-start"
                                              :level 'block-world
@@ -2087,14 +2088,15 @@
                            :customname "Factory Cross"
                            :custom-orb-count 1
                            :custom-buzzer-count 5
-                           :packages '()
-                           :sound-banks '()
-                           :music-bank #f
+                           :packages '(training)
+                           :sound-banks '(training)
+                           :music-bank 'village1
                            :ambient-sounds '()
-                           :mood '*default-mood*
-                           :mood-func 'update-mood-default
-                           :ocean #f
+                           :mood '*training-mood*
+                           :mood-func 'update-mood-training
+                           :ocean '*ocean-map-village1*
                            :sky #t
+                           :sun-fade 1.0
                            :continues '((new 'static 'continue-point
                                              :name "factory-cross-start"
                                              :level 'factory-cross
@@ -2130,14 +2132,15 @@
                            :customname "Holly Wood"
                            :custom-orb-count 1
                            :custom-buzzer-count 5
-                           :packages '()
-                           :sound-banks '()
-                           :music-bank #f
+                           :packages '(training)
+                           :sound-banks '(training)
+                           :music-bank 'village1
                            :ambient-sounds '()
-                           :mood '*default-mood*
-                           :mood-func 'update-mood-default
-                           :ocean #f
+                           :mood '*training-mood*
+                           :mood-func 'update-mood-training
+                           :ocean '*ocean-map-village1*
                            :sky #t
+                           :sun-fade 1.0
                            :continues '((new 'static 'continue-point
                                              :name "holly-wood-start"
                                              :level 'holly-wood
@@ -2173,14 +2176,15 @@
                            :customname "monument"
                            :custom-orb-count 1
                            :custom-buzzer-count 5
-                           :packages '()
-                           :sound-banks '()
-                           :music-bank #f
+                           :packages '(training)
+                           :sound-banks '(training)
+                           :music-bank 'village1
                            :ambient-sounds '()
-                           :mood '*default-mood*
-                           :mood-func 'update-mood-default
-                           :ocean #f
+                           :mood '*training-mood*
+                           :mood-func 'update-mood-training
+                           :ocean '*ocean-map-village1*
                            :sky #t
+                           :sun-fade 1.0
                            :continues '((new 'static 'continue-point
                                              :name "monument-start"
                                              :level 'monument
@@ -2216,14 +2220,15 @@
                            :customname "Cathederal"
                            :custom-orb-count 1
                            :custom-buzzer-count 5
-                           :packages '()
-                           :sound-banks '()
-                           :music-bank #f
+                           :packages '(training)
+                           :sound-banks '(training)
+                           :music-bank 'village1
                            :ambient-sounds '()
-                           :mood '*default-mood*
-                           :mood-func 'update-mood-default
-                           :ocean #f
+                           :mood '*training-mood*
+                           :mood-func 'update-mood-training
+                           :ocean '*ocean-map-village1*
                            :sky #t
+                           :sun-fade 1.0
                            :continues '((new 'static 'continue-point
                                              :name "cathederal-start"
                                              :level 'cathederal
@@ -2259,14 +2264,15 @@
                            :customname "pyramid"
                            :custom-orb-count 1;47
                            :custom-buzzer-count 5
-                           :packages '()
-                           :sound-banks '()
-                           :music-bank #f
+                           :packages '(training)
+                           :sound-banks '(training)
+                           :music-bank 'village1
                            :ambient-sounds '()
-                           :mood '*default-mood*
-                           :mood-func 'update-mood-default
-                           :ocean #f
+                           :mood '*training-mood*
+                           :mood-func 'update-mood-training
+                           :ocean '*ocean-map-village1*
                            :sky #t
+                           :sun-fade 1.0
                            :continues '((new 'static 'continue-point
                                              :name "pyramid-start"
                                              :level 'pyramid
@@ -2302,14 +2308,15 @@
                            :customname "Ice Canyon"
                            :custom-orb-count 1
                            :custom-buzzer-count 5
-                           :packages '()
-                           :sound-banks '()
-                           :music-bank #f
+                           :packages '(snow)
+                           :sound-banks '(snow)
+                           :music-bank 'snow
                            :ambient-sounds '()
-                           :mood '*default-mood*
-                           :mood-func 'update-mood-default
-                           :ocean #f
+                           :mood '*snow-mood*
+                           :mood-func 'update-mood-snow
+                           :ocean '*ocean-map-village1*
                            :sky #t
+                           :sun-fade 1.0
                            :continues '((new 'static 'continue-point
                                              :name "ice-canyon-start"
                                              :level 'ice-canyon
@@ -2345,14 +2352,15 @@
                            :customname "Coins"
                            :custom-orb-count 1
                            :custom-buzzer-count 5
-                           :packages '()
-                           :sound-banks '()
-                           :music-bank #f
+                           :packages '(training)
+                           :sound-banks '(training)
+                           :music-bank 'village1
                            :ambient-sounds '()
-                           :mood '*default-mood*
-                           :mood-func 'update-mood-default
-                           :ocean #f
+                           :mood '*training-mood*
+                           :mood-func 'update-mood-training
+                           :ocean '*ocean-map-village1*
                            :sky #t
+                           :sun-fade 1.0
                            :continues '((new 'static 'continue-point
                                              :name "coins-start"
                                              :level 'coins
@@ -2388,14 +2396,15 @@
                            :customname "Villa cube"
                            :custom-orb-count 1
                            :custom-buzzer-count 5
-                           :packages '()
-                           :sound-banks '()
-                           :music-bank #f
+                           :packages '(training)
+                           :sound-banks '(training)
+                           :music-bank 'village1
                            :ambient-sounds '()
-                           :mood '*default-mood*
-                           :mood-func 'update-mood-default
-                           :ocean #f
+                           :mood '*training-mood*
+                           :mood-func 'update-mood-training
+                           :ocean '*ocean-map-village1*
                            :sky #t
+                           :sun-fade 1.0
                            :continues '((new 'static 'continue-point
                                              :name "villa-cube-start"
                                              :level 'villa-cube
@@ -2431,14 +2440,15 @@
                            :customname "ice Slide"
                            :custom-orb-count 1
                            :custom-buzzer-count 5
-                           :packages '()
-                           :sound-banks '()
-                           :music-bank #f
+                           :packages '(snow)
+                           :sound-banks '(snow)
+                           :music-bank 'snow
                            :ambient-sounds '()
-                           :mood '*default-mood*
-                           :mood-func 'update-mood-default
-                           :ocean #f
+                           :mood '*snow-mood*
+                           :mood-func 'update-mood-snow
+                           :ocean '*ocean-map-village1*
                            :sky #t
+                           :sun-fade 1.0
                            :continues '((new 'static 'continue-point
                                              :name "ice-slide-start"
                                              :level 'ice-slide
@@ -2474,14 +2484,15 @@
                            :customname "Islands"
                            :custom-orb-count 1
                            :custom-buzzer-count 5
-                           :packages '()
-                           :sound-banks '()
-                           :music-bank #f
+                           :packages '(training)
+                           :sound-banks '(training)
+                           :music-bank 'village1
                            :ambient-sounds '()
-                           :mood '*default-mood*
-                           :mood-func 'update-mood-default
-                           :ocean #f
+                           :mood '*training-mood*
+                           :mood-func 'update-mood-training
+                           :ocean '*ocean-map-village1*
                            :sky #t
+                           :sun-fade 1.0
                            :continues '((new 'static 'continue-point
                                              :name "islands-start"
                                              :level 'islands
@@ -2517,14 +2528,15 @@
                            :customname "Glass towers"
                            :custom-orb-count 1
                            :custom-buzzer-count 5
-                           :packages '()
-                           :sound-banks '()
-                           :music-bank #f
+                           :packages '(training)
+                           :sound-banks '(training)
+                           :music-bank 'village1
                            :ambient-sounds '()
-                           :mood '*default-mood*
-                           :mood-func 'update-mood-default
-                           :ocean #f
+                           :mood '*training-mood*
+                           :mood-func 'update-mood-training
+                           :ocean '*ocean-map-village1*
                            :sky #t
+                           :sun-fade 1.0
                            :continues '((new 'static 'continue-point
                                              :name "glass-towers-start"
                                              :level 'glass-towers
@@ -2560,14 +2572,15 @@
                            :customname "Chemical factory"
                            :custom-orb-count 1
                            :custom-buzzer-count 5
-                           :packages '()
-                           :sound-banks '()
-                           :music-bank #f
+                           :packages '(training)
+                           :sound-banks '(training)
+                           :music-bank 'village1
                            :ambient-sounds '()
-                           :mood '*default-mood*
-                           :mood-func 'update-mood-default
-                           :ocean #f
+                           :mood '*training-mood*
+                           :mood-func 'update-mood-training
+                           :ocean '*ocean-map-village1*
                            :sky #t
+                           :sun-fade 1.0
                            :continues '((new 'static 'continue-point
                                              :name "chemical-factory-start"
                                              :level 'chemical-factory
@@ -2603,14 +2616,15 @@
                            :customname "Space Bridge"
                            :custom-orb-count 1
                            :custom-buzzer-count 5
-                           :packages '()
-                           :sound-banks '()
-                           :music-bank #f
+                           :packages '(training)
+                           :sound-banks '(training)
+                           :music-bank 'village1
                            :ambient-sounds '()
-                           :mood '*default-mood*
-                           :mood-func 'update-mood-default
-                           :ocean #f
+                           :mood '*training-mood*
+                           :mood-func 'update-mood-training
+                           :ocean '*ocean-map-village1*
                            :sky #t
+                           :sun-fade 1.0
                            :continues '((new 'static 'continue-point
                                              :name "space-bridge-start"
                                              :level 'space-bridge
@@ -2646,14 +2660,15 @@
                            :customname "Chicks"
                            :custom-orb-count 1
                            :custom-buzzer-count 5
-                           :packages '()
-                           :sound-banks '()
-                           :music-bank #f
+                           :packages '(training)
+                           :sound-banks '(training)
+                           :music-bank 'village1
                            :ambient-sounds '()
-                           :mood '*default-mood*
-                           :mood-func 'update-mood-default
-                           :ocean #f
+                           :mood '*training-mood*
+                           :mood-func 'update-mood-training
+                           :ocean '*ocean-map-village1*
                            :sky #t
+                           :sun-fade 1.0
                            :continues '((new 'static 'continue-point
                                              :name "chicks-start"
                                              :level 'chicks
@@ -2689,14 +2704,15 @@
                            :customname "garden"
                            :custom-orb-count 1
                            :custom-buzzer-count 5
-                           :packages '()
-                           :sound-banks '()
-                           :music-bank #f
+                           :packages '(training)
+                           :sound-banks '(training)
+                           :music-bank 'village1
                            :ambient-sounds '()
-                           :mood '*default-mood*
-                           :mood-func 'update-mood-default
-                           :ocean #f
+                           :mood '*training-mood*
+                           :mood-func 'update-mood-training
+                           :ocean '*ocean-map-village1*
                            :sky #t
+                           :sun-fade 1.0
                            :continues '((new 'static 'continue-point
                                              :name "garden-start"
                                              :level 'garden
@@ -2732,14 +2748,15 @@
                            :customname "Cold pipe"
                            :custom-orb-count 1
                            :custom-buzzer-count 2
-                           :packages '()
-                           :sound-banks '()
-                           :music-bank #f
+                           :packages '(training)
+                           :sound-banks '(training)
+                           :music-bank 'village1
                            :ambient-sounds '()
-                           :mood '*default-mood*
-                           :mood-func 'update-mood-default
-                           :ocean #f
+                           :mood '*training-mood*
+                           :mood-func 'update-mood-training
+                           :ocean '*ocean-map-village1*
                            :sky #t
+                           :sun-fade 1.0
                            :continues '((new 'static 'continue-point
                                              :name "cold-pipe-start"
                                              :level 'cold-pipe
@@ -2775,14 +2792,15 @@
                            :customname "Block Man"
                            :custom-orb-count 1
                            :custom-buzzer-count 5
-                           :packages '()
-                           :sound-banks '()
-                           :music-bank #f
+                           :packages '(training)
+                           :sound-banks '(training)
+                           :music-bank 'village1
                            :ambient-sounds '()
-                           :mood '*default-mood*
-                           :mood-func 'update-mood-default
-                           :ocean #f
+                           :mood '*training-mood*
+                           :mood-func 'update-mood-training
+                           :ocean '*ocean-map-village1*
                            :sky #t
+                           :sun-fade 1.0
                            :continues '((new 'static 'continue-point
                                              :name "block-man-start"
                                              :level 'block-man
@@ -2818,14 +2836,15 @@
                            :customname "Cube Face"
                            :custom-orb-count 1
                            :custom-buzzer-count 5
-                           :packages '()
-                           :sound-banks '()
-                           :music-bank #f
+                           :packages '(training)
+                           :sound-banks '(training)
+                           :music-bank 'village1
                            :ambient-sounds '()
-                           :mood '*default-mood*
-                           :mood-func 'update-mood-default
-                           :ocean #f
+                           :mood '*training-mood*
+                           :mood-func 'update-mood-training
+                           :ocean '*ocean-map-village1*
                            :sky #t
+                           :sun-fade 1.0
                            :continues '((new 'static 'continue-point
                                              :name "cube-face-start"
                                              :level 'cube-face

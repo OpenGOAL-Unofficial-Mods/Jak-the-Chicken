@@ -21,17 +21,7 @@
   "base_id": 4200,
   "actors" : [
     {
-      "trans": [33.0, 310.0496, 154.1191], 
-      "etype": "money",  
-      "game_task": 0, 
-      "quat" : [0, 0, 0, 1], 
-      "bsphere": [-21.6238, 19.3496, 17.1191, 10], 
-      "lump": {
-        "name":"level-building-orb-ig"
-      }
-    },
-    {
-      "trans": [-23.0760, -23.0760, -23.0760],// translation
+      "trans": [-23.7483, 315.0000, 89.5260],// translation
       "etype": "fuel-cell",  // chick
       "game_task": 0, // associated game task (for powercells, etc)
       "quat" : [0, 0, 0, 1], // quaternion
@@ -42,7 +32,7 @@
     },
  
    {
-      "trans": [31.0143, 31.0143, 31.0143],// translation
+      "trans": [98.8548, 292.5000, 91.5842],// translation
       "etype": "fuel-cell",  // chick
       "game_task": 0, // associated game task (for powercells, etc)
       "quat" : [0, 0, 0, 1], // quaternion
@@ -53,7 +43,7 @@
     },
  
    {
-      "trans": [98.3767, 98.3767, 98.3767],// translation
+      "trans": [30.9205, 317.5000, 19.6796],// translation
       "etype": "fuel-cell",  // chick
       "game_task": 0, // associated game task (for powercells, etc)
       "quat" : [0, 0, 0, 1], // quaternion
@@ -64,7 +54,7 @@
     },
  
    {
-      "trans": [35.6314, 35.6314, 35.6314],// translation
+      "trans": [98.5414, 292.5000, 84.6130],// translation
       "etype": "fuel-cell",  // chick
       "game_task": 0, // associated game task (for powercells, etc)
       "quat" : [0, 0, 0, 1], // quaternion
@@ -75,7 +65,7 @@
     },
  
    {
-      "trans": [-23.5668, -23.5668, -23.5668],// translation
+      "trans": [36.9619, 317.5000, 25.5315],// translation
       "etype": "fuel-cell",  // chick
       "game_task": 0, // associated game task (for powercells, etc)
       "quat" : [0, 0, 0, 1], // quaternion
@@ -86,7 +76,7 @@
     },
  
    {
-      "trans": [98.2482, 98.2482, 98.2482],// translation
+      "trans": [-19.9585, 315.0000, 85.2462],// translation
       "etype": "fuel-cell",  // chick
       "game_task": 0, // associated game task (for powercells, etc)
       "quat" : [0, 0, 0, 1], // quaternion
@@ -95,5 +85,7 @@
         "name":"test-fuel-cell"
       }
     }
+
+
   ]
 }
